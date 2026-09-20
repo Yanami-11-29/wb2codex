@@ -1,0 +1,22 @@
+{
+  "listen": "127.0.0.1:8787",
+  "gateway_url": "http://127.0.0.1:7865",
+  "gateway_api_key": "",
+  "auth_dir": "../auths",
+  "auth_owner_uid": -1,
+  "auth_owner_gid": -1,
+  "config_file": "../config.json",
+  "backup_dir": "./data/backups",
+  "credentials_file": "./data/credentials.json",
+  "pricing_file": "./data/pricing.json",
+  "docker_container": "workbuddy2api",
+  "dangerous_ops": false,
+  "read_only": false,
+  "refresh_config_on_login": true,
+  "timeout_seconds": 120,
+  "ui": {
+    "username": "admin",
+    "password": "CHANGE_ME",
+    "session_ttl": "12h"
+  }
+}
